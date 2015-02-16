@@ -1,2 +1,2 @@
 # Playground
-I work on various side projects here.
+I play around with various side projects here.

@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Subtle Pulse</title>
+<meta name="description" content="subtle pulse">
+<meta name="author" content="Michael J. Williams" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<link rel="stylesheet" href="./style.css">
+
+<link rel="icon" href="favicon.ico" type="imagex/x-icon" /> 
+
+<style type="text/css">
+	body {
+		height: 100vh;
+		width: 100vw;
+		display: block;
+	}
+	@-webkit-keyframes pulse {
+		0% {
+			color: rgba(255,255,255, .1);
+		background-color: rgba(0,0,0,.1);
+		}
+		50% {
+			color: rgba(255,255,255, .4);
+		background-color: rgba(0,0,0,.2);
+		}
+		100% {
+			color: rgba(255,255,255, .1);
+		background-color: rgba(0,0,0,.1);
+		}
+	}
+	p {
+		font-family: "Poiret One";
+		font-size: 3rem;
+		text-align: center;
+		width: 100vw;
+		height: 100vh;
+		line-height: 100vh;
+		display: block;
+		color: rgba(255,255,255, .2);
+		-webkit-animation: pulse 5s ease 0 infinite;
+		position: relative;
+		background-color: #0063E6;
+		background: -webkit-radial-gradient(#0095FF, #006EBC);
+		z-index: 1;
+	}
+	p:after {
+		content: "";
+		width: 100vw;
+		height: 100vh;
+		display: block;
+		background-color: rgba(0,0,0,.5);
+		-webkit-animation: pulse 5s ease 0 infinite;
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		z-index: -1;
+	}
+
+</style>
+
+</head>
+
+<body>
+	<p>pulse</p>
+</body>
+
+</html>

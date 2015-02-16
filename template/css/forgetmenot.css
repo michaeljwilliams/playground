@@ -1,0 +1,25 @@
+/* forgetmenot.css | MIT License
+
+ForgetMeNot
+Contains a list of styles that will probably be forgotten about and 
+remain up to the browser, such as ::selection. These styles do not have 
+values and should be set by the user.
+
+social media
+analytics
+robots.txt
+sitemap.xml
+accessibility
+document load time
+	- javascript at bottom of page
+www resolve
+
+
+/*
+
+/********** ForgetMeNot **********/
+
+/*set selection bg*/
+::selection { 
+	background: ;
+}
