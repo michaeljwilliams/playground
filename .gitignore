@@ -44,4 +44,4 @@ Thumbs.db
 .sass-cache
 # Jekyll
 _site/
-*gitignore.*
+*ignoreme.*
