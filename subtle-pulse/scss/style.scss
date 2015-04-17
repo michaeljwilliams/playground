@@ -8,20 +8,20 @@ body {
 
 @-webkit-keyframes pulse {
 0% {
-		color: rgba(255,255,255, .1);
+		color: rgba(255,255,255, .05);
 	background-color: rgba(0,0,0,.1);
 	}
 	50% {
-		color: rgba(255,255,255, .4);
-	background-color: rgba(0,0,0,.2);
+		color: rgba(255,255,255, .5);
+	background-color: rgba(0,0,0,.4);
 	}
 	100% {
-		color: rgba(255,255,255, .1);
+		color: rgba(255,255,255, .05);
 	background-color: rgba(0,0,0,.1);
 	}
 }
 p {
-	font-family: "Poiret One";
+	font-family: "Poiret One", "Helvetica Neue", "Arial", serif;
 	font-size: 3rem;
 	text-align: center;
 	width: 100vw;
@@ -40,7 +40,7 @@ p:after {
 	width: 100vw;
 	height: 100vh;
 	display: block;
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.1);
 	-webkit-animation: pulse 5s ease 0 infinite;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
