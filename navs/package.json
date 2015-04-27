@@ -32,19 +32,21 @@
     }
 ,   "config": 
     {
-        "webdir": "hermes"
+        "webdir": "playground/navs"
     }
 ,   "scripts":
     {
         "init": "echo '\n\n\nInitializing...' && parallelshell 'npm run browser-sync' 'npm run sass' 'npm run watch-cat-js'"
 
+    ,   "init-nocat": "echo '\n\n\nInitializing...' && parallelshell 'npm run browser-sync' 'npm run sass'"
+
     ,   "browser-sync": "browser-sync start --proxy localhost:8080/~michael/$npm_package_config_webdir --files='*.html, css/*.css, js/*.js, js/*.json, img/*.png, img/*.jpg, img/*.gif, svg/*.svg'"
 
-    ,   "sass": "node-sass -w --output-style nested scss/ -o css/"
+    ,   "sass": "node-sass -r -w --output-style nested scss/ -o css/"
 
     ,   "watch-cat-js": "watch 'npm run cat-js' js/_main/ --ignoreDotFiles"
 
-    ,   "cat-js": "cat js/_main/*.js > js/main.js"
+    ,   "cat-js": "cat 'js/_main/*.js' > js/main.js"
 
 
 

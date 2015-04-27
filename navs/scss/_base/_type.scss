@@ -1,0 +1,21 @@
+// _type.scss contains all base text styling
+// _type.scss does *not* contain any color rules.
+// Those should be written in _colors.scss.
+
+// Variables
+$h1-size: 2vmax;
+
+html, h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: $h1-size;
+    line-height: $h1-size*3;
+}
