@@ -1,6 +1,6 @@
 // base.scss contains base styling
 // (the stuff you normally have on every page)
-// Little css is actually written here; base.scss is more of a config file,
+// Little CSS is actually written here; base.scss is more of a config file,
 // containing mostly imports (the base styles) and variables (settings).
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -14,5 +14,3 @@
 @import "_base/_colors.scss";
 
 // Variables
-$pesticide-debug-outline: true;
-$pesticide-debug-depth: true;
