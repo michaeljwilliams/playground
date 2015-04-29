@@ -11,17 +11,14 @@ body {
     text-align: center;
 }
 
-.foo3_-navbtn {
-    height: 60rem;
-    width: 60rem;
+.spinner1 {
+    height: 10rem;
+    width: 10rem;
     border-radius: 60rem;
-    position: absolute;
-    right: -28.5rem;
-    bottom: -28.5rem;
-    z-index: 98;
-    -webkit-animation: foo3_-navbtn 2s infinite;
+    display: block;
+    -webkit-animation: spinner1 2s infinite;
 }
-@-webkit-keyframes foo3_-navbtn {
+@-webkit-keyframes spinner1 {
     0%, 80%, 100%{
         transform: scale(.035,.035);
         z-index: 98;
