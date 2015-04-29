@@ -1,0 +1,87 @@
+{
+	"name": "hermes"
+,	"version": "0.0.0"
+
+,   "author": 
+    {
+        "name": "Michael J. Williams"
+    ,   "email": "me@mjwilliams.me"
+    ,   "url": "http://mjwilliams.me"
+    }
+
+,	"description": "A simple web project build system. Hermes takes care of little things so you don't have to; he runs messages to other apps to take care of things like linting, concatenation, and minification. Inspired by Keith Cirkel's http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool"
+
+,	"license": "All rights reserved."
+,	"private": true
+,	"files": "files included in package"
+,	"main": "index.js"
+,	"config":
+    {
+        "setting": "value"
+    }
+,	"dependencies":
+    {
+        "node-sass": "^2.1.1"
+    ,   "jshint": "^2.6.3"
+    ,   "browser-sync": "^2.5.3"
+    ,   "parallelshell": "^1.1.1"
+    ,   "jsonlint": "^1.6.2"
+    ,   "csslint": "^0.10.0"
+    ,   "uglify-js": "^2.4.19"
+    ,   "watch": "^0.16.0"
+    }
+,   "config": 
+    {
+        "webdir": "playground/navs"
+    }
+,   "scripts":
+    {
+        "init": "echo '\n\n\nInitializing...' && parallelshell 'npm run browser-sync' 'npm run sass' 'npm run watch-cat-js'"
+
+    ,   "init-nocat": "echo '\n\n\nInitializing...' && parallelshell 'npm run browser-sync' 'npm run sass'"
+
+    ,   "browser-sync": "browser-sync start --proxy localhost:8080/~michael/$npm_package_config_webdir --files='*.html, css/*.css, js/*.js, js/*.json, img/*.png, img/*.jpg, img/*.gif, svg/*.svg'"
+
+    ,   "sass": "node-sass -r -w --output-style nested scss/ -o css/"
+
+    ,   "watch-cat-js": "watch 'npm run cat-js' js/_main/ --ignoreDotFiles"
+
+    ,   "cat-js": "cat 'js/_main/*.js' > js/main.js"
+
+
+
+    ,   "premakedist": "npm run lint-css && read -p '\nPress [Enter] key to continue to js linting...' && npm run lint-js && read -p '\nPress [Enter] key to continue to dist build...'"
+
+    ,   "lint-css": "csslint --ignore=box-model css/*.css"
+
+    ,   "lint-js": "jshint --show-non-errors --extra-ext .js, .json js/"
+
+
+
+    ,   "makedist": "npm run cp-html && npm run makedist-sass && npm run cat-js && npm run uglify-js && npm run dist-browser-sync"
+
+    ,   "makedist-sass": "node-sass --output-style compressed scss/ -o dist/css/"
+    
+    ,   "cp-html": "cp -R *.html dist/"
+
+    ,   "uglify-js": "uglifyjs --screw-ie8 --stats --compress- drop_console=true -- js/main.js"
+
+    ,   "dist-browser-sync": "browser-sync start --proxy localhost:8080/~michael/$npm_package_config_webdir/dist --files='*.html, css/*.css, js/*.js, js/*.json, img/*.png, img/*.jpg, img/*.gif, svg/*.svg'"
+
+
+
+    ,   "cp-img": "cp -R img/* dist/img"
+
+    ,   "cp-svg": "cp -R svg/* dist/svg"
+
+    ,   "minify-html": ""
+
+    ,   "hash-css": "hashmark -r 'dist/css/style.css' '{dir}/{name}-{hash}{ext}'"
+
+    ,   "hash-js": "hashmark -r 'dist/js/main.js' '{dir}/{name}-{hash}{ext}'"
+
+    ,   "chmod": "chmod -R 744 dist"
+
+    ,   "tar": ""
+    }
+}

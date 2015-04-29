@@ -1,0 +1,744 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dist",
+				"dist-browser-sync"
+			],
+			[
+				"deposit",
+				"depositTotal"
+			],
+			[
+				"newItem",
+				"newItemContent"
+			],
+			[
+				"new",
+				"newItemContent"
+			],
+			[
+				"items",
+				"itemsArray"
+			],
+			[
+				"subtotal-fix",
+				"subtotal-fixedTotal"
+			],
+			[
+				"paya",
+				"payableTo"
+			],
+			[
+				"designer-add",
+				"designer-address2"
+			],
+			[
+				"initial",
+				"initialInvoice"
+			],
+			[
+				"doc",
+				"docArray"
+			],
+			[
+				"replace",
+				"replaceTextOfClass"
+			],
+			[
+				"all",
+				"allInstancesOfClass"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"le",
+				"lengthWeeks"
+			],
+			[
+				"key",
+				"keySection"
+			],
+			[
+				"crate",
+				"createElement"
+			],
+			[
+				"bar",
+				"barColor"
+			],
+			[
+				"tasks",
+				"tasksArray"
+			],
+			[
+				"set",
+				"setWeekDividerHeight"
+			],
+			[
+				"insert",
+				"insertStyleRule"
+			],
+			[
+				"week",
+				"weekDividers"
+			],
+			[
+				"asyn",
+				"asyncData"
+			],
+			[
+				"timeframe",
+				"timeframe-sunday"
+			],
+			[
+				"asy",
+				"asyncData"
+			],
+			[
+				"on",
+				"onReadyStateCHange"
+			],
+			[
+				"response",
+				"responseText"
+			],
+			[
+				"workTota",
+				"workTotalRemaining"
+			],
+			[
+				"col",
+				"col	Tag"
+			],
+			[
+				"page",
+				"page-break-inside"
+			],
+			[
+				"page-break-",
+				"page-break-before"
+			],
+			[
+				"page-",
+				"page-break-inside"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text",
+				"text-align-last"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"lig",
+				"light-bluish"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"li",
+				"light-bluish"
+			],
+			[
+				"ligh",
+				"lighter-bluish"
+			],
+			[
+				"lighter",
+				"lighter-bluish"
+			],
+			[
+				"light",
+				"light-bluish"
+			],
+			[
+				"nav",
+				"nav-width"
+			],
+			[
+				"upp",
+				"upper-roman"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"FF",
+				"FF4063"
+			],
+			[
+				"s",
+				"span	Tag"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-top-right-radius"
+			],
+			[
+				"border-top",
+				"border-top-left-radius"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"backro",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"file",
+				"File: New View into File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"sublimt",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"litner",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install theme",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"theme",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"browse",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"insta",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"instl",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"inst",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: c",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 100.0,
+		"history":
+		[
+			"return num_groups()",
+			"num_groups()",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/michael/Sites/hermes/package.json",
+		"/Users/michael/Sites/hermes/scss/_style/init.scss Link",
+		"/Users/michael/Sites/hermes/scss/_style/init.scss",
+		"/Users/michael/Dropbox/School/2015 spring/anthro/db12.txt",
+		"/Users/michael/Repos/3rd resources/node/hashmark/package.json",
+		"/usr/local/lib/node_modules/hashmark/package.json",
+		"/Users/michael/Repositories/3rd resources/node/hashmark/package.json",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/michael/Projects/ptah/package.json",
+		"/usr/local/lib/node_modules/hashmark/bin/hashmark",
+		"/usr/local/lib/node_modules/hashmark/node_modules/cli/cli.js",
+		"/Users/michael/Repositories/resources/js/replaceHTMLOfClass.js",
+		"/Users/michael/Sites/mjwilliams design/project.json",
+		"/Users/michael/Repositories/resources/js/asyncRequest.js",
+		"/Users/michael/Repositories/resources/js/replaceTextOfClass.js",
+		"/Users/michael/Sites/mjwilliams design/timeframe.json",
+		"/Users/michael/Sites/mjwilliams design/timeframe.html",
+		"/Users/michael/Dropbox/mjwilliams design/initial-invoice.html",
+		"/Users/michael/Dropbox/mjwilliams design/project.json",
+		"/Users/michael/Repositories/resources/js/insertStyleRule.js",
+		"/Users/michael/Sites/mjwilliams design/test.html",
+		"/Users/michael/working.txt",
+		"/Users/michael/broken.txt",
+		"/Users/michael/Sites/mjwilliams design/data.html",
+		"/Users/michael/Dropbox/mjwilliams design/timeframe.json",
+		"/Users/michael/Dropbox/mjwilliams design/timeframe.html",
+		"/Users/michael/Dropbox/mjwilliams design/timeframe-example.html",
+		"/Users/michael/Dropbox/peppermint/timeframe.html",
+		"/Users/michael/Dropbox/mjwilliams design/initial-invoice2.html",
+		"/Users/michael/Dropbox/mjwilliams design/gramps.html",
+		"/Users/michael/Dropbox/mjwilliams design/.DS_Store",
+		"/Users/michael/Dropbox/peppermint/project.json",
+		"/Users/michael/Dropbox/peppermint/receipt.html",
+		"/Users/michael/Dropbox/peppermint/additional-estimate.html",
+		"/Users/michael/Dropbox/peppermint/estimate.html",
+		"/Users/michael/Dropbox/peppermint/final-invoice.html",
+		"/Users/michael/Dropbox/peppermint/additional-invoice.html",
+		"/Users/michael/Dropbox/peppermint/initial-invoice.html",
+		"/Users/michael/Dropbox/peppermint/timeframe.json",
+		"/Users/michael/Dropbox/peppermint/peppermint.json",
+		"/Users/michael/Dropbox/peppermint/gramps-agnostic.html",
+		"/Users/michael/Dropbox/peppermint/gramps.html",
+		"/Users/michael/Dropbox/peppermint/timeframe",
+		"/Users/michael/Dropbox/peppermint/initial-estimate.html",
+		"/Users/michael/Dropbox/peppermint/initial-invoice-template.html",
+		"/Users/michael/Dropbox/peppermint/final-invoice-template.html",
+		"/Users/michael/Dropbox/peppermint/estimate-template.html",
+		"/Users/michael/Dropbox/peppermint/initial-estimate-template.html",
+		"/Users/michael/Dropbox/peppermint/additional-invoice-template.html",
+		"/Users/michael/Dropbox/peppermint/invoice-template.html",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/michael/Dropbox/peppermint/gramps/gramps.html",
+		"/Applications/Opera.app/Contents/Versions/27.0.1689.69/Opera Framework.framework/Resources/en.lproj/ExtensionInstalledBubble.nib",
+		"/Applications/Opera.app/Contents/Resources/af.lproj/InfoPlist.strings",
+		"/Applications/Opera.app/Contents/Info.plist",
+		"/Users/michael/Sites/michaeljwilliams/michaeljwilliams.github.io/index.html",
+		"/Users/michael/Sites/michaeljwilliams/michaeljwilliams.github.io/example.html",
+		"/Users/michael/Documents/Untitled.rtf",
+		"/Users/michael/Dropbox/peppermint/gramps/gramps.txt",
+		"/CMakeCache.txt",
+		"/Users/michael/Sites/michaeljwilliams/michaeljwilliams.github.io/tidy-index.html",
+		"/Users/michael/Downloads/config.txt",
+		"/Users/michael/Sites/royal_cruise/js/mine.js",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/michael/Sites/royal_cruise/css/style.css",
+		"/Users/michael/Sites/subtlepulse.html",
+		"/Users/michael/Sites/playground/index.html",
+		"/Users/michael/Sites/playground/template/index.html",
+		"/Users/michael/Sites/donotcall/index.html",
+		"/Users/michael/Sites/donotcall/scss/style.scss",
+		"/Users/michael/Sites/subtle-pulse/scss/style.scss",
+		"/Users/michael/Sites/index.html",
+		"/Users/michael/Sites/wordpress/wp-admin/install.php",
+		"/Users/michael/Sites/template/index.html",
+		"/Users/michael/Sites/royal_cruise/index.html",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-theme",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/User/Colorsublime.sublime-settings",
+		"/Users/michael/Documents/Contract Killer 3.md",
+		"/Users/michael/Downloads/gist4031110-d342f4e3d98403d29f6f55059636ea0eede2ec58/Contract Killer 3.md",
+		"/Users/michael/Sites/template/css/initial.css",
+		"/Users/michael/Sites/landscaping_co/style.css",
+		"/Users/michael/Sites/template/css/forgetmenot.css",
+		"/Users/michael/Sites/template/css/colors.css",
+		"/Users/michael/Downloads/tachyons-master/css/tachyons.css",
+		"/Users/michael/Downloads/mrmrs-colors-af7a17d/site.css",
+		"/Users/michael/Downloads/mrmrs-colors-af7a17d/css/colors.min.css",
+		"/Users/michael/Downloads/mrmrs-colors-af7a17d/css/colors.css",
+		"/Users/michael/Sites/template/css/myreset.css",
+		"/Users/michael/Sites/template/css/normalize.css",
+		"/Users/michael/Sites/template/css/reset.css",
+		"/Users/michael/Sites/landscaping_co/index.html",
+		"/Users/michael/Sites/template/css/baseline.css",
+		"/Users/michael/Sites/baseline.css",
+		"/Users/michael/Sites/reset.css",
+		"/Users/michael/Sites/normalize.css",
+		"/Users/michael/Sites/landscaping_co/about.html",
+		"/Users/michael/Sites/landscaping_co/services.html",
+		"/Users/michael/Sites/landscaping_co/jquery-2.1.3.js",
+		"/Users/michael/Sites/landscaping_co/mine.js",
+		"/Users/michael/Downloads/sticky-navigation/css/style.css",
+		"/Users/michael/Sites/landscaping_co/normalize.css",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/private/etc/apache2/httpd.conf",
+		"/private/etc/apache2/users/michael.conf"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rm",
+			"hashmark",
+			"layout",
+			"column",
+			"wrap",
+			"designer",
+			"invoiceNumber",
+			"initialInvoice",
+			"jsonGet",
+			"jsonData",
+			"httpRequest",
+			"local",
+			"set-invoice",
+			"peppermint",
+			"ff4063",
+			"<td colspan=\"8\">Meeting</td>",
+			">weekly progress meeting",
+			"timeframe-tasklength",
+			"class=\"timeframe-percent\"",
+			"class=\"timeframe-task\"",
+			"timeframe-task",
+			"helper",
+			"milestone",
+			"deliver",
+			"timeframe",
+			"button",
+			";\n",
+			">\n",
+			"invoice-issue-date",
+			"btn",
+			"#set-rece",
+			"set-invoice",
+			"\">\n",
+			"additional invoice",
+			"estimate",
+			"additional estimate",
+			"estimate",
+			"estimated",
+			"estimate",
+			"initial estimate",
+			"h1",
+			"subtot",
+			"input",
+			"button",
+			"btn",
+			"on time",
+			"additional estimate",
+			"invoice",
+			"section",
+			"cancellation",
+			"extra costs",
+			"half now",
+			"half now,",
+			"timeframe",
+			"deliverables details",
+			"project proposal",
+			"project summary",
+			"h1",
+			"is the total amount",
+			"total-label",
+			"set-deposit-total",
+			"deposit-total",
+			"set-invoice-total",
+			"total deposit",
+			"#info",
+			"section-tot",
+			"h2",
+			"total-box",
+			"total deposit",
+			"total depos",
+			"total-label",
+			"section-total",
+			"total:",
+			"deliverables",
+			"traditional",
+			"hourly rate",
+			"717",
+			"invoic",
+			"invoice",
+			"initial invoice",
+			"h1",
+			"bill",
+			"project",
+			"invoice-total",
+			"#notes textarea",
+			"textarea",
+			"summary",
+			"this document",
+			"h1",
+			"summary",
+			"h1",
+			"invoice",
+			"invoice-info",
+			"invoice-total",
+			"invoice-issue-date",
+			"set-invoice-total",
+			"svg",
+			"h1",
+			"switch_file",
+			"initia",
+			"initial",
+			"invoice",
+			"initial estimate",
+			"invoice",
+			"initial estimate",
+			"a revised estimate",
+			"until that point",
+			"proposal",
+			"details",
+			"html",
+			"together",
+			"dotted",
+			"legal stuff",
+			"deliverables",
+			"copyright",
+			"timeframe",
+			"either",
+			"project",
+			">\n",
+			"project",
+			"\\n",
+			"separate estimate",
+			"timeline",
+			"//////////",
+			" type=\"text/javascript\" ",
+			"bluish",
+			"button",
+			"alert"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"client"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hermes.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"project.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
