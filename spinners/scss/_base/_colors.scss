@@ -1,39 +1,14 @@
-// _colors.scss contains all base color rules
+// _colors.scss contains all base color rules.
 
-// Variables
+////////////////////////////////////////////////////////////////////////////////
+// VARIABLES
 $plain-text: #444;
-$foo1_-navbtn3: #222;
-$foo1_-navbtn2: #444;
-$foo1_-navbtn1: #666;
-$foo2_-navbtn: #333;
+////////////////////////////////////////////////////////////////////////////////
 
-// type: colors related to text
-h1, p {
-    color: white;
-}
+////////////////////////////////////////////////////////////////////////////////
+// TYPE - color rules related to text
+////////////////////////////////////////////////////////////////////////////////
 
-html {
-    color: $plain-text;
-    background-color: #FFF;
-}
-
-section {
-    border-color: $plain-text;
-}
-
-// foo1
-    .foo1_-navbtn1 {
-        background-color: $foo1_-navbtn1;
-    }
-    .foo1_-navbtn2 {
-        background-color: $foo1_-navbtn2;
-    }
-    .foo1_-navbtn3 {
-        background-color: $foo1_-navbtn3;
-    }
-
-// foo2, foo3
-    .foo2_-navbtn,
-    .foo3_-navbtn {
-        background-color: $foo2_-navbtn;
-    }
+////////////////////////////////////////////////////////////////////////////////
+// STYLES - other color rules
+////////////////////////////////////////////////////////////////////////////////
