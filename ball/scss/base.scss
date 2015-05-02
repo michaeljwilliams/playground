@@ -1,0 +1,38 @@
+// base.scss contains base styling (the stuff you normally have on every page).
+//
+// Little CSS is actually written here; base.scss is more of a config file,
+// containing mostly imports from the _base folder (the base styles) and
+// variables (settings).
+
+////////////////////////////////////////////////////////////////////////////////
+// DEV IMPORTS - dev imports should be located in _dev.
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// IMPORTS
+
+// The normalize/reset
+@import "_base/_init.scss";
+
+// All the rest of the styles; break this up into multiple files if your project
+// is complex enough to require it.
+@import "_base/_style.scss";
+
+// All type-related styles; follows _style.scss to ensure that type styles take
+// precedence.
+@import "_base/_type.scss";
+
+// All color-related styles; last so that color styles take precedence over
+// borders etc. declared in _style.scss.
+@import "_base/_colors.scss";
+
+// Import components from the components folder here. Components should not be
+// affected by other stylesheets; if you need to style it so it's different,
+// make a variation of the component or don't use the component. Components are
+// universal, reusable, agnostic blocks found all over the place, like a button.
+//@import "_components/_whatever.scss";
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// VARIABLES - variables set here take precedence over other base values
+////////////////////////////////////////////////////////////////////////////////
