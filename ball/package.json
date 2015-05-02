@@ -27,7 +27,7 @@
     }
 ,   "config": 
     {
-        "webdir": "playground/spinners"
+        "webdir": "playground/ball"
     }
 ,   "scripts":
     {

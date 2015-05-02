@@ -207,32 +207,56 @@ body {
   border-radius: 50%;
   display: inline-block;
   position: relative;
+  z-index: 100;
   top: 0;
-  -webkit-animation: sp5 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55);
-  -moz-animation: sp5 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55);
-  animation: sp5 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55); }
+  -webkit-animation: sp5 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55) 0.35s;
+  -moz-animation: sp5 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55) 0.35s; }
 
 @-webkit-keyframes sp5 {
   0% {
     top: 0; }
   70% {
-    -webkit-transform: none;
-    transform: none; }
+    -webkit-transform: none; }
   100% {
     top: 6rem;
-    -webkit-transform: scale(1.2, 0.6);
-    transform: scale(1.2, 0.6); } }
+    -webkit-transform: scale(1.2, 0.6); } }
 
 @-moz-keyframes sp5 {
   0% {
     top: 0; }
   70% {
-    -moz-transform: none;
-    transform: none; }
+    -moz-transform: none; }
   100% {
     top: 6rem;
-    -moz-transform: scale(1.2, 0.6);
-    transform: scale(1.2, 0.6); } }
+    -moz-transform: scale(1.2, 0.6); } }
+
+.sp6 {
+  position: absolute;
+  border-radius: 50%;
+  top: 9rem;
+  left: calc(50% - 2rem);
+  display: block;
+  height: 1rem;
+  width: 4rem;
+  z-index: 99;
+  -webkit-animation: sp6 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55) 0.35s;
+  -moz-animation: sp6 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55) 0.35s; }
+
+@-webkit-keyframes sp6 {
+  0% {
+    opacity: .1;
+    -webkit-transform: scale(0.3, 0.3); }
+  100% {
+    opacity: .6;
+    -webkit-transform: none; } }
+
+@-moz-keyframes sp6 {
+  0% {
+    opacity: .1;
+    -moz-transform: scale(0.3, 0.3); }
+  100% {
+    opacity: .6;
+    -moz-transform: none; } }
 
 html, h1, h2, h3, h4, h5, h6, p, a, li {
   font-family: "Open Sans", sans-serif;
@@ -245,3 +269,6 @@ body {
 .sp5 {
   background: -webkit-radial-gradient(30% 30%, #FF7777, #EB0000);
   background: -moz-radial-gradient(30% 30%, #FF7777, #EB0000); }
+
+.sp6 {
+  background-color: #444444; }
