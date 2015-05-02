@@ -1,0 +1,247 @@
+/* init.css - A normalize.css, reset.css, and sanitize.css mashup with some extras
+ * contains initial properties and values for more easily starting web projects
+ *
+ * Michael J. Williams => me@mjwilliams.me
+ *
+ * MIT license.
+ */
+/*
+ * Normalization
+ */
+:root {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-y: scroll;
+  text-size-adjust: 100%; }
+
+audio:not([controls]) {
+  display: none; }
+
+details {
+  display: block; }
+
+input[type="number"] {
+  width: auto; }
+
+input[type="search"] {
+  -webkit-appearance: textfield; }
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+main {
+  display: block; }
+
+summary {
+  display: block; }
+
+pre {
+  overflow: auto; }
+
+progress {
+  display: inline-block; }
+
+small {
+  font-size: 75%; }
+
+template {
+  display: none; }
+
+textarea {
+  overflow: auto; }
+
+[hidden] {
+  display: none; }
+
+[unselectable] {
+  user-select: none; }
+
+/*
+ * Universal inheritance
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit; }
+
+* {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  line-height: inherit; }
+
+/*
+ * Opinionated defaults
+ */
+*,
+*::before,
+*::after {
+  border-style: solid;
+  border-width: 0; }
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none; }
+
+:root {
+  box-sizing: border-box;
+  cursor: default;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+  vertical-align: top; }
+
+a {
+  transition: all 0.4s;
+  text-decoration: none; }
+
+a:link {
+  color: #FF00A0; }
+
+a:visited {
+  color: #FFA0C0; }
+
+a:hover {
+  color: #FFA0C0; }
+
+a:active {
+  color: #FFA0C0; }
+
+button,
+input,
+select,
+textarea {
+  background: transparent; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace; }
+
+input {
+  min-height: 1.5em; }
+
+nav ol,
+nav ul {
+  list-style: none; }
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none; }
+  select::-ms-expand {
+    display: none; }
+  select::-ms-value {
+    color: currentColor; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+textarea {
+  resize: vertical; }
+
+::selection {
+  color: #FFFFFF;
+  background-color: #444444;
+  text-shadow: none; }
+
+@media screen {
+  [hidden~="screen"] {
+    display: inherit; }
+  [hidden~="screen"]:not(:active):not(:focus):not(:target) {
+    clip: rect(0 0 0 0) !important;
+    position: absolute !important; } }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  border: none; }
+
+button {
+  overflow: visible; }
+
+textarea {
+  overflow: auto; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+ol, ul {
+  list-style: none; }
+
+body {
+  text-align: center; }
+
+.sp5 {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  -webkit-animation: sp5 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55);
+  -moz-animation: sp5 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55);
+  animation: sp5 0.7s alternate infinite cubic-bezier(0.88, 0.06, 0.87, 0.55); }
+
+@-webkit-keyframes sp5 {
+  0% {
+    top: 0; }
+  70% {
+    -webkit-transform: none;
+    transform: none; }
+  100% {
+    top: 6rem;
+    -webkit-transform: scale(1.2, 0.6);
+    transform: scale(1.2, 0.6); } }
+
+@-moz-keyframes sp5 {
+  0% {
+    top: 0; }
+  70% {
+    -moz-transform: none;
+    transform: none; }
+  100% {
+    top: 6rem;
+    -moz-transform: scale(1.2, 0.6);
+    transform: scale(1.2, 0.6); } }
+
+html, h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px; }
+
+body {
+  font-size: 1rem; }
+
+.sp5 {
+  background: -webkit-radial-gradient(30% 30%, #FF7777, #EB0000);
+  background: -moz-radial-gradient(30% 30%, #FF7777, #EB0000); }

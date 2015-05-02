@@ -1,0 +1,55 @@
+// _style.scss contains all base styling not specified in other files.
+
+////////////////////////////////////////////////////////////////////////////////
+// VARIABLES
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// STYLES
+
+body {
+    text-align: center;
+}
+
+// sp5
+    .sp5 {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top: 0;
+        -webkit-animation: sp5 .7s alternate infinite cubic-bezier(.88,.06,.87,.55);
+        -moz-animation: sp5 .7s alternate infinite cubic-bezier(.88,.06,.87,.55);
+        animation: sp5 .7s alternate infinite cubic-bezier(.88,.06,.87,.55);
+    }
+    @-webkit-keyframes sp5 {
+        0% {
+            top: 0;
+        }
+        70% {
+            -webkit-transform: none;
+            transform: none;
+        }
+        100% {
+            top: 6rem;
+            -webkit-transform: scale(1.2,.6);
+            transform: scale(1.2,.6);
+        }
+    }
+    @-moz-keyframes sp5 {
+        0% {
+            top: 0;
+        }
+        70% {
+            -moz-transform: none;
+            transform: none;
+        }
+        100% {
+            top: 6rem;
+            -moz-transform: scale(1.2,.6);
+            transform: scale(1.2,.6);
+        }
+    }
+
+////////////////////////////////////////////////////////////////////////////////
