@@ -1,0 +1,150 @@
+// _style.scss contains all base styling not specified in other files
+
+// Variables
+
+body {
+    text-align: center;
+}
+
+section {
+    width: 20vmax;
+    height: 30vmax;
+    border: 2px solid;
+    display: inline-block;
+    margin-bottom: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+// foo1
+
+    .foo1_nav {
+        position: relative;
+        z-index: 97;
+    }
+
+    .foo1_-navbtn1 {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 10rem;
+        position: absolute;
+        right: -3rem;
+        top: -3rem;
+        z-index: 100;
+        -webkit-animation: foo1_-navbtn1 2s infinite;
+    }
+    @-webkit-keyframes foo1_-navbtn1 {
+        0%, 80%, 100%{
+            transform: scale(.1,.1);
+            z-index: 100;
+        }
+        20%, 60% {
+            z-index: 93;
+            transform: none;
+        }
+    }
+
+    .foo1_-navbtn2 {
+        height: 30rem;
+        width: 30rem;
+        border-radius: 30rem;
+        position: absolute;
+        right: -13rem;
+        top: -13rem;
+        z-index: 99;
+        -webkit-animation: foo1_-navbtn2 2s infinite;
+    }
+    @-webkit-keyframes foo1_-navbtn2 {
+        0%, 80%, 100%{
+            transform: scale(.065,.065);
+            z-index: 99;
+        }
+        20%, 60% {
+            z-index: 91;
+            transform: none;
+        }
+    }
+
+    .foo1_-navbtn3 {
+        height: 60rem;
+        width: 60rem;
+        border-radius: 60rem;
+        position: absolute;
+        right: -28rem;
+        top: -28rem;
+        z-index: 98;
+        -webkit-animation: foo1_-navbtn3 2s infinite;
+    }
+    @-webkit-keyframes foo1_-navbtn3 {
+        0%, 80%, 100%{
+            transform: scale(.05,.05);
+            z-index: 98;
+        }
+        20%, 60% {
+            z-index: 90;
+            transform: none;
+        }
+    }
+
+// foo2
+
+    .foo2_nav {
+        position: relative;
+        z-index: 97;
+    }
+
+    .foo2_-navbtn {
+        height: 60rem;
+        width: 60rem;
+        border-radius: 60rem;
+        position: absolute;
+        right: -28.5rem;
+        bottom: -28.5rem;
+        z-index: 98;
+        -webkit-animation: foo2_-navbtn 2s infinite;
+    }
+    @-webkit-keyframes foo2_-navbtn {
+        0%, 80%, 100%{
+            transform: scale(.035,.035);
+            z-index: 98;
+        }
+        20%, 60% {
+            z-index: 90;
+            transform: none;
+        }
+    }
+
+// foo3
+
+    .foo3_nav {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        z-index: 97;
+        height: $p-size*1.5;
+    }
+
+    .foo3_nav li, .foo3_nav p {
+        display: inline;
+    }
+
+    .foo3_-navbtn {
+        height: 60rem;
+        width: 60rem;
+        border-radius: 60rem;
+        position: absolute;
+        right: -28.5rem;
+        bottom: -28.5rem;
+        z-index: 98;
+        -webkit-animation: foo3_-navbtn 2s infinite;
+    }
+    @-webkit-keyframes foo3_-navbtn {
+        0%, 80%, 100%{
+            transform: scale(.035,.035);
+            z-index: 98;
+        }
+        20%, 60% {
+            z-index: 90;
+            transform: none;
+        }
+    }
