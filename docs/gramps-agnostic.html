@@ -1,0 +1,753 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Gramps (agnostic)</title>
+  <meta name="description" content="Gramps - The Contract">
+
+  <meta name="author" content="Michael J. Williams">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!--CSS-->
+  <style>
+
+    body {
+      margin: 0 auto;
+      padding: 0;
+      width: 21.59cm;
+    }
+
+    h1, h2, h3, h4, h5, p, a, ul, ol, li {
+     font-family: 'Palatino Linotype', serif;
+     color: #222222;
+     font-weight: normal;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+    }
+
+    h4 {
+      font-size: .9rem;
+    }
+
+    p, ol, ul, li {
+      font-size: .8rem;
+      line-height: 1rem;
+    }
+
+    h1, h2, h3, h4 {
+      text-align: center;
+    }
+
+    .contact {
+      display: block;
+      height: 7rem;
+    }
+
+    .contact-left, .contact-right {
+      position: relative;
+      width: 50%;
+    }
+
+    .contact-left {
+      left: 0;
+    }
+
+    .contact-right {
+      left: 10.795cm;
+      top: -7rem;
+    }
+
+    .indent {
+      margin: auto 2rem;
+    }
+
+    ul {
+      margin-left: 30%;
+    }
+
+    ol {
+      list-style-type: lower-alpha;;
+    }
+
+    .signature {
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+    }
+
+    .dotted-line {
+      text-align: center;
+    }
+
+    .change {
+      background-color: #dd1111;
+      color: #ffffff;
+    }
+
+    .hidden-on-render {
+      display: none;
+    }
+
+    .intro {
+      border-bottom: .2rem solid #222222;
+    }
+
+    .intro-details, .intro-license {
+      border-bottom: .2rem dotted #222222;
+    }
+
+    @media print {
+
+      .intro {
+        display: none;
+      }
+
+      p, li {
+        page-break-inside: avoid;
+        page-break-before: avoid;
+      }
+
+      h1, h2, h3, h4 {
+        page-break-after: avoid;
+      }
+
+      .dotted-line, .together, ul, ol, li {
+        page-break-inside: avoid;
+      }
+
+      @page{
+        margin: .8cm;
+      }
+
+    }
+
+  </style>
+  <!--END CSS-->
+
+
+</head>
+
+<body>
+
+  <main>
+      
+
+
+    <section class="intro">
+    <section class="intro-details">
+    <h1>Gramps - The Contract</h1>
+
+    <p>
+    Originally authored by:<br>
+    Michael J. Williams<br>
+    mjwilliams.me<br>
+    hello@mjwilliams.me<br>
+    github.com/michaeljwilliams<br>
+    <br>
+    Originally published: July 19, 2015<br>
+    </p>
+
+    <span class="hidden-on-render">
+    ****************************************************************************
+    </span>
+    </section>
+    <section class="intro-license">
+    <p>
+    COPYRIGHT AND LICENSE INFORMATION<br>
+    <br>
+    Copyright 2015 Michael J. Williams<br>
+    mjwilliams.me<br>
+    </p>
+    <p>
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this document the rights to use, copy, modify, merge, and/or distribute copies of the document, and to permit persons to whom the document is furnished to do so, subject to the following conditions:
+    </p>
+
+    <p>
+    Permission to sell copies of the document is expressly denied. Permission is granted to use the document in connection with commercial activity, such as using the document as a contract in a business arrangement, but the document itself, or any part of the document, may not be sold. In the case of using this document in connection with commercial activity, but not selling the document, this copyright notice and attribution to the author may be omitted.
+    </p>
+
+    <p>
+    Permission to republish the document in a public forum or distribute copies of the document is granted only if the publication contains proper attribution to the author and includes this copyright notice in its entirety at the beginning of the document, excepting the usage of this document in connection with commercial activity, while not selling the document.
+    </p>
+
+    <p>
+    THE DOCUMENT IS PROVIDED "AS IS", WITHOUT ANY WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE DOCUMENT.
+    </p>
+
+
+    <span class="hidden-on-render">
+    ****************************************************************************
+    </span>
+    </section>
+    <section class="intro-story-instructions">
+    <p>
+    This contract incorporates much of and expands upon <a href="http://stuffandnonsense.co.uk">Andy Clarke</a>'s refreshing <a href="http://gist.github.com/malarkey/4031110">Contract Killer</a>, as well as sourcing some bits from the AIGA standard design contract and a number of other contracts I could find (including my attorney's retainer agreement!). I quite liked the personal, straightforward tone of Contract Killer, but I wanted to have more bases covered for my own contract. This is it.
+    </p>
+    <p>
+    I've nicknamed it Gramps after my paternal granddad, whom I've never met. Apparently he was a hitman for the mob. A contract killer. Therein lies the reference.
+    </p>
+    <p>
+    INSTRUCTIONS<br>
+    <br>
+    Read carefully over the entire document and customize it to your specific needs. Be sure to change anything you don't like. If you use the document as-is, be sure to at least change the portions highlighted in red.
+    </p>
+    <p>
+    Note that the title of this document is Gramps, the (agnostic) notation simply denotes an unpersonalized version of the document.
+    </p>
+    <h2>
+    By default this introductory section (above the black line) will not print. The contract begins below the black line.
+    </h2>
+    <span class="hidden-on-render">
+    ****************************************************************************
+    </span>
+    </section>
+    </section>
+
+    <h1>Agreement</h1>
+
+    <p><span class="change">DATE</span></p>
+
+    <p>
+    Between myself, <span class="change">YOUR NAME</span> ("me", "I", "myself", "Designer"), and you <span class="change">CLIENT representing COMPANY</span> ("you", "yourself", "Client"):
+    </p>
+
+    <section class="contact">
+    <p class="contact-left">
+    Designer contact info<br>
+    <br>
+    Name: <span class="change">your name</span><br>
+    Address: <span class="change">your address</span><br>
+    Telephone: <span class="change">your tel</span><br>
+    Email: <span class="change">your email</span><br>
+    </p>
+
+    <p class="contact-right">
+    Client contact info<br>
+    <br>
+    Name: <span class="change">client name</span><br>
+    Company: <span class="change">client company</span><br>
+    Address: <span class="change">client address</span><br>
+    Telephone: <span class="change">client tel</span><br>
+    Email: <span class="change">client email</span><br>
+    </p>
+    </section>
+
+    <h2>Prelude</h2>
+
+      <p>
+      I'll always try to do my best to help you meet your goals and make your wishes come true, but it's best to have a few things written down so that we both clearly understand what's going on, what our responsibilities are, when things will happen, and what we'll do if something goes wrong.
+      </p>
+      <p>
+      In this document I've tried to simplify and shorten the legalese you would find in the average contract. I know it's a little long, but that's because I want us both to be on the same page in all aspects of our project. I have no desire to trick you into signing something you don't understand and might regret later. In fact, if there's anything in this contract you don't understand, I'll be happy to explain it to you. If there's anything in this contract you disagree with or would like changed, please feel free to discuss it with me so we can come to an understanding and revise the contract if necessary. This is <em>our</em> agreement, not just my contract.<br>
+      <br>
+      The point of this document is simply that I want what's best for the safety and success of both parties, now and in the future.
+      </p>
+
+    <div class="together">
+    <h2>Project Summary</h2>
+
+      <p>
+      You, the Client, are hiring me, the Designer, as an independent contractor to <span class="change">do something</span>, as outlined in the rest of this Agreement, for the estimated total price of $<span class="change">estimated price</span>, as specified in the attached Payment Schedule.
+      </p>
+    </div>
+
+    <h2>Definitions</h2>
+
+      <p>
+      As used throughout this Agreement:
+      </p>
+
+      <p>
+      <em>Agreement</em> means the entire contents of this contractual document, together with the attached Payment Schedule and Timeframe.
+      </p>
+      <p>
+      <em>additional Invoice</em> means a supplementary invoice for work not covered in the Initial Invoice.
+      </p>
+      <p>
+      <em>Deliverables</em> means the body of work, such as source files containing an HTML/CSS-based design, that is created by Designer in order to help Client achieve the result outlined in the Project Proposal section, and is delivered to Client throughout and/or at the conclusion of the Project. Deliverables are covered in more depth in the Deliverables Details section.
+      </p>
+      <p>
+      <em>Estimate</em> means an estimation, made by Designer, of costs for certain services or items based on information provided by Client.
+      </p>
+      <p>
+      <em>Final Invoice</em> means the invoice Client will receive on completion of the Project. The Final Invoice will contain the total cost of the entire Project minus any payments you have already made.
+      </p>
+      <p>
+      <em>Initial Invoice</em> means the invoice containing Designer's original estimation of the total cost of the Project, based on the information provided by Client prior to Project commencing, which is sent to Client with the rest of the Agreement for approval before any work commences. The Initial Invoice contains the sum of the fees for the Project without any additions or revisions.
+      </p>
+      <p>
+      <em>Invoice</em> or <em>invoice</em> means a bill to Client for work done (or to be done) or items sold (or to be sold) by Designer.
+      </p>
+      <p>
+      <em>License</em> means the distribution of copyrights to both parties as specified in the Copyrights section.
+      </p>
+      <p>
+      <em>Payment Schedule</em> means the Initial Invoice and any additional Invoices for work on the Project which are appended to the Project now or in the future.
+      </p>
+      <p>
+      <em>Preliminary Works</em> means all artwork including, but not limited to, concepts, sketches, visual presentations, and other preliminary designs and documents developed by Designer. These works may or may not be shown to or delivered to Client for consideration but are not included in the Deliverables.
+      </p>
+      <p>
+      <em>Project</em> means the process of creating the Deliverables necessary to help Client achieve the result outlined in the Project Proposal section, as well as referring to the Deliverables themselves as a whole.
+      </p>
+      <p>
+      <em>Timeframe</em> means the document containing all of the deadlines both parties have mutually agreed to abide by as well as estimated milestone dates for certain aspects of the Project. This document includes all payment deadlines, which can also be found on their respective invoices.
+      </p>
+
+    <div class="together">
+    <h2>Our Responsibilities In Short</h2>
+
+      <p>
+      Yours: You have the authority to enter into this contract on behalf of your company or your organization. You agree to provide me with everything that I need to complete the Project, including text, images, and other information as and when I need it, and in the format that I ask for. You agree to review my work, provide feedback, and sign-off approval in a timely manner too. Deadlines work both ways and you, too, will be bound by any dates that we set together in the Timeframe. You also agree to adhere to the Payment Schedule attached to this contract.
+      </p>
+    </div>
+      <p>
+      Mine: I have the experience and ability to do everything we've agreed on, as specified in this Agreement, and I'll do it all in a professional and timely manner to the best of my ability. Along the way I will endeavor to stick to the Timeframe we've agreed on, but I can't be responsible for a missed deadline if you have been late in supplying materials or have not approved or signed off my work on time at any stage.
+      </p>
+
+    <div class="together">
+    <h2>Project Proposal</h2>
+
+        <p>
+        This section covers the details of your specific Project.<br>
+        <br>
+        <span class="change">Your project details</span>
+        </p>
+    </div>
+
+    
+    <section class="indent">
+    <div class="together">
+    <h2>Generic Project Details</h2>
+      <h3>Design</h3>
+
+        <p>
+        I create look-and-feel designs, functionality, and flexible layouts that adapt to the capabilities of many devices, screen sizes, and purposes. I create designs using predominantly HTML and CSS so I don’t waste time (and your money) mocking up every idea as a static visual. I may use static visuals, including sketches and occasionally mockups, to indicate a look-and-feel direction (color, texture and typography).
+        </p>  
+    </div>
+
+    <div class="together">
+      <h3>Text Content</h3>
+
+        <p>
+        I'm not responsible for writing any text copy. If you’d like me to write copy or create content for you, I can provide an additional Estimate for that.
+        </p>
+    </div>    
+
+    <div class="together">
+      <h3>Photographs</h3>
+
+          <p>
+          You should supply graphic files in an editable, vector digital format. You should supply photographs in a high resolution digital format. If you choose to buy stock photographs, I can suggest stock libraries. If you’d like me to search for photographs for you, I can provide an additional Estimate for that.
+          </p>
+    </div>      
+
+    <div class="together">
+      <h3>HTML, CSS and JavaScript</h3>
+
+        <p>
+        I create web experiences using HTML5 markup, CSS2 + 3 stylesheets for styling, and unobtrusive JavaScript for other features and behaviors.
+        </p>
+    </div>
+
+    <div class="together">
+      <h3>Browser Testing</h3>
+
+        <p>
+        Browser testing does not mean attempting to make a website look the same in browsers of different capabilities or on devices with different screen sizes. It does mean ensuring that a person’s experience of a design should be appropriate to the capabilities of the browser and device they're using and consistent, though probably not equivalent, with the way the design is presented in other experiences.
+        </p>
+    </div>    
+        <p>
+        Testing a range of small and large devices is essential to ensuring that a person’s experience of a design is appropriate to the capabilities of the browser and device they’re using. The browsers I test in account for approximately 93% of internet traffic in the US as of January 2015.
+        </p>
+
+        <section class="indent">
+        <div class="together">
+        <h4>Mobile Devices</h4>
+
+          <p>
+          Mobile devices, including smartphones, tablets, and others, are now the most common way for people to access the internet, and as such the mobile experience for your site is the most important one. For mobile experiences I ensure that an appropriate layout works well on the small scale of a mobile device and I test my work in:
+          </p>
+
+              <ul>
+                <li>iOS: Safari</li>
+                <li>Android 4.x: Google Chrome</li>
+              </ul>
+
+          <p>
+          I currently don’t test Blackberry, Opera Mini/Mobile, Windows Phone or other mobile browsers. If you need me to test using these, I can provide an additional Estimate for that.
+          </p>
+          </div>
+
+        <div class="together">
+        <h4>Desktop/Laptop Browsers</h4>
+
+          <p>
+          I test my work in current versions of major desktop/laptop browsers, including:
+          </p>
+
+            <ul>
+              <li>Apple Safari</li>
+              <li>Google Chrome</li>
+              <li>Microsoft Internet Explorer</li>
+              <li>Mozilla Firefox</li>
+            </ul>
+
+          <p>
+          I won’t test in other or older browsers unless you specify otherwise. If you need an enhanced design for an older browser, I can provide an additional Estimate for that.
+          </p>
+          </div>
+          </section>
+
+      
+    <div class="together">
+    <h3>Tech Support</h3>
+
+        <p>
+        This Agreement does not include an offer of support for website hosting, email, or other services related to hosting, although I may agree to provide these services for an additional Estimate. You may already have professional hosting and you might even manage that hosting in-house; if you do, great. If you don’t, I can provide additional Estimates for any of the following: setting up an account for you at one of my preferred hosting providers, setting up your site on a server, installing any statistics software such as Google Analytics, and some other services. Then the updates to, and management of that server, will be up to you.
+        </p>
+    </div>
+
+        <p>
+        This Agreement does include a warranty which covers only the amending of any errors in design or functionality of the final Deliverables. This warranty period lasts 30 days from completion of the Project. If a longer or ongoing warranty to provide additional services is desired, I can provide an additional Estimate for that based on a monthly charge or hourly rate.
+        </p>
+
+      
+    <div class="together">
+    <h3>Deliverables Details</h3>
+
+        <p>
+        Preliminary Works include preliminary designs and documents that I develop. These works are primarily to assist me in designing some aspect of your Project. Some of these works may be shown to you in order to communicate an idea or direction I am considering taking. Some of these works may be delivered to you at the conclusion of the Project but are not included in the Deliverables.
+        </p>
+    </div>
+    <div class="together">
+        <p>
+        Examples of deliverables:
+        </p>
+        <ul>
+          <li>
+          HTML5 source code files
+          </li>
+          <li>
+          CSS2 + 3 source code files
+          </li>
+          <li>
+          JavaScript source code files
+          </li>
+          <li>
+          Vector (scalable) image files
+          </li>
+          <li>
+          Raster (nonscalable) image files
+          </li>
+          <li>
+          Artwork in other formats (sketches, mockups)
+          </li>
+          <li>
+          Logo image files
+          </li>
+          <li>
+          Icon image files
+          </li>
+          <li>
+          Other technical files
+          </li>
+          <li>
+          Combinations of any of the above, such as an entire design
+          </li>
+        </ul>
+    </div>
+
+        <p>
+        Final deliverables are all the works (Deliverables) I deliver to you at the conclusion of the Project.
+        </p>
+
+        <p>
+        If I incorporate Designer credits into the Deliverables, any use of the Deliverables shall continue to bear the credits in the same form, size and location. Designer credits are generally unobtrusive and small in size and will not be incorporated into any Client logo. The removal of such credits may or may not be negotiated for an additional Estimate. Designer credits may be included with Deliverables, but are not Deliverables themselves, and are owned by Designer.
+        </p>
+
+    </section>
+
+    
+    <div class="together">
+    <h2>Changes, Revisions, Additions</h2>
+
+        <p>
+        I know that fixed-price contracts are rarely followed precisely, as they often limit you to your earliest ideas. I don’t want to limit your ability to expand your ambitions or change your mind about something, so I'm happy to be flexible. The Initial Invoice is based on the length of time I estimate I’ll need to accomplish everything you’ve told me you want to achieve. If you want to change your mind or add anything new that is outside the Initial Invoice, that won’t be a problem as I’ll provide an additional Estimate for that.
+        </p>
+    </div>
+        <p>
+        You’ll have plenty of opportunities to review my work and provide feedback. I will share my work with you often and we'll have regular contact. If, at any stage, you’re not happy with the direction my work is taking, you’ll pay me in full for everything I’ve produced up to that point and cancel this contract (see Cancellation And Withdrawal section).
+        </p>
+
+    <h2>Timeframe</h2>
+
+      <p>
+      I am not responsible for commencing work until this Agreement has been signed and executed by both parties and your intial payment has been received and cleared into my bank account (although I may very well start work sooner). For all other information on timeframe and deadlines for this Project and Agreement, see attached Timeframe document.
+      </p>
+
+    
+    <div class="together">
+    <h2>Payments</h2>
+
+      <p>
+      I'm sure you understand how important it is as a small business that you pay the invoices that I send you promptly. As I'm also sure you'd like to have me completely focused on making your project the best it can be, rather than worrying about payments, you agree to strictly adhere to the Payment Schedule.<br>
+      <br>
+      All amounts in this Agreement and for the extent of this Project are in US Dollars and all payments will be made in US Dollars.
+      </p>
+    </div>
+
+    <section class="indent">
+    <div class="together">
+      <h3>Half Now, Half Later</h3>
+
+        <p>
+        The payment plan that we will use for this project shall be a "half now, half later" schedule. This means that you will pay me for half of the total estimated cost, as outlined in the Initial Invoice and any additional Invoices, up front, as a deposit, before I get to work. Following completion of the Project you will pay me the remaining halves of the Initial Invoice Project total and any additional Invoice Work totals, in addition to the cost of any work done outside of an existing invoice and any extra costs (more on extra costs below). In other words, the total due on the Final Invoice will be the total cost of the Project minus any payments you have already made. Itemized costs are detailed in the Payment Schedule.
+        </p>
+    </div>
+
+      
+    <div class="together">
+    <h3>Extra Costs</h3>
+
+        <p>
+        All extra costs arising from this Project, for example (but not limited to) the costs of fonts, artwork, and stock photographs, will be charged to you.</p>
+    </div>
+        <p>
+        In order to help you sleep at night, I won't knowingly incur expenses which, in total and outside of any items on the Payment Schedule, exceed $200.00, without notifying you and obtaining your approval via an additional Estimate. The total amount of this additional Estimate will need to be paid via an additional Invoice to me before the extra expenses are incurred. Expenses totaling less than $200.00 will be due on the next invoice I send you.
+        </p>
+        <p>
+        Any and all taxes and fees arising from this Agreement and/or Project, including sales and use taxes, will be charged to you. However, note that in California, the following are exempt from sales and use taxes: sales/transfers of intangible personal property, such as patent or copyright interests, and sales of services where no tangible personal property is transferred or where the transfer of property is incidental.
+        </p>
+
+      
+    <div class="together">
+    <h3>Work Done Outside Of Invoices</h3>
+
+        <p>
+        All work done outside of any invoices will be billed at my standard hourly rate of $<span class="change">50.00</span>, unless specified otherwise in writing. I'll keep you apprised of a tally of hours within a reasonable period of time. Final fees and expenses shall be shown when the Final Invoice is delivered to you.
+        </p>
+    </div>
+
+      
+    <div class="together">
+    <h3>Late Payments</h3>
+
+        <p>
+        All invoices must be paid within 30 calendar days from the issue date on the invoice unless a later date is specified by the invoice. A $50.00 late payment charge is payable by you on all overdue balances for the reissuing of each invoice at 15, 30, 45, and 60 days from the due date of the original invoice. The grant of any License or right of copyright is conditioned on receipt and settlement of full payment.
+        </p>
+    </div>
+
+      
+    <div class="together">
+    <h3>Default In Payment</h3>
+
+        <p>
+        Client will assume responsibility for cost outlays by Designer in all collections of unpaid fees and of legal fees necessitated by default in payment. Invoices in default will include but are not limited to fees for collection and legal costs.
+        </p>
+    </div>
+    </section>
+
+    
+    <div class="together">
+    <h2>Copyrights</h2>
+
+      <p>
+      First, you guarantee that all elements of text, images, artwork, and other items you provide are either owned by yourself, or that you have permission to use them in the fashion that they'll be used as part of this Project. You, not I, shall be held liable for the usage of items you provide which are not your own or you don't have permission to use.
+      </p>
+    </div>
+      <p>
+      Then, when your payment of the Final Invoice for this Project has cleared, and assuming that you have not breached this Agreement in any way, I will deliver the final Deliverables to you and copyright/intellectual property will be automatically assigned as follows (what follows constitutes the License):
+      </p>
+      <section class="indent">
+        <p>
+        You’ll own the individual visual elements that I create for this Project. I’ll give you source files and finished files when the Project is completed and you should keep them somewhere safe as I'm not required to keep a copy.
+        </p>
+        <p>
+        You'll continue to own all elements of text, images and data you provided, unless someone else owns them.
+        </p>
+        <p>
+        I’ll own the unique combination of these elements that constitutes a complete design and I’ll license its use to you, exclusively and in perpetuity, in original form only, for this project/venture/business (as outlined in the Project Proposal section) only. You are expressly prohibited from reselling the design and/or its components, unless we agree otherwise in writing.
+        </p>
+        <p>
+        I love to show off my work and share what I’ve learned with other people, so I reserve the right to display and link to your project and its components as part of my portfolio and to write and talk about it on websites, in books, and anywhere else, unless we agree otherwise in writing.
+        </p>
+      </section>
+
+    <section class="indent">
+    <div class="together">
+    <h2>The Fine Print</h2>
+
+      <h3>Liability</h3>
+
+        <p>
+        I can’t guarantee that my work will always be error-free and so I can’t be liable to you or any other party for damages, including lost profits, lost savings or other incidental, consequential or special damages, even if you’ve advised me of them.
+        </p>
+    </div>
+
+      <div class="together">
+        <p>
+        Limitation of liability: If for some reason I am found liable to you as a result of this Agreement or for any other reason, the maximum amount I can be held liable for is the lesser of 
+        </p>
+
+          <ol>
+            <li>
+              the total amount you agreed to pay me, as per the Payment Schedule<br><br>
+            </li>
+            <li>
+              the total amount you have paid me thus far, as per the Payment Schedule.
+            </li>
+          </ol>
+      </div>
+
+      
+    <div class="together">
+    <h3>Non-transferable, Severability, Exclusivity, Mutual Drafting, Force Majeure</h3>
+
+        <p>
+        Just like a parking ticket, you can’t transfer this contract to anyone else without my permission.
+        </p>
+    </div>
+
+        <p>
+        If for some reason one or more parts of this contract become invalid or unenforceable, the remaining parts of it remain valid and in place.
+        </p>
+
+        <p>
+        This Agreement does not create an exclusive relationship between us. You are free to engage others to perform services of a similar nature to those provided by myself, and I'm entitled to engage and perform services of a similar nature for other clients.
+        </p>
+
+        <p>
+        Any ambiguity or inconsistency in this Agreement is to be resolved in accordance with the most reasonable interpretation and not strictly for or against either party by virtue of that party’s authorship. Both parties have had substantial opportunity to discuss and negotiate the terms and content of this Agreement.
+        </p>
+
+        <p>
+        I shall not be deemed to be in breach of this Agreement if I am unable to complete the Project or any part of it by reason of fire, natural disaster, death, illness, or my own incapacity, or any local, state, federal, national or international law, governmental order or regulation or any other event beyond my control. If any of these events occur, I'll inform you of my inability to complete work on the Project, or of any delay in working on the Project, and propose a revised Timeframe (and Payment Schedule if applicable) for completion of the Project.
+        </p>
+
+      
+    <div class="together">
+    <h3>Disputes</h3>
+
+        <p>
+        In the case of any dispute, you will pay me, at the minimum, any undisputed portion of funds due to me. You'll adhere to the Payment Schedule for these payments.
+        </p>
+    </div>
+        <p>
+        In the case of any dispute, both parties agree to attempt informal negotiation with the other party prior to filing any action.
+        </p>
+        <p>
+        All actions, whether brought by you or me, will be filed in my state and county of business.
+        </p>
+
+      
+    <div class="together">
+    <h3>Entire Agreement</h3>
+
+        <p>
+        This Agreement constitutes the complete and exclusive statement of terms of our agreement and supersedes all other statements or understandings. Any such statements or understandings shall not be used to interpret this Agreement. If there's anything in this contract you disagree with or would like changed, please feel free to discuss it with me so that we can come to an understanding and revise the Agreement if necessary. This Agreement is a legal document under exclusive jurisdiction of San Diego County, California courts.
+        </p>
+    </div>
+
+      
+    <div class="together">
+    <h3>Temporary Proposal</h3>
+
+        <p>
+        This unsigned Agreement is not a permanent proposal. The Agreement is valid to be signed and thereby executed by both parties only within 30 days from today, <span class="change">today's date</span>. If the Agreement has not been executed by both parties on or before <span class="change">30 days from today</span>, a new contract must be signed. Once executed, this contract stays in place and need not be renewed.
+        </p>
+    </div>
+    </section>
+
+    <section class="indent">
+    <div class="together">
+    <h2>Cancellation And Withdrawal</h2>
+
+      <h3>Client Withdrawal</h3>
+
+        <p>
+        You have the right to withdraw from the entire Agreement at any time on the condition that I retain all monies you have already paid me for any amount of work done thus far. You'll also compensate me for any work I have already done which has not yet been paid for, if applicable. Upon you notifying me of your intent to withdraw, and your final payment clearing, if applicable, I'll grant you a License, as specified in the Copyrights section, to use all Deliverables produced as part of this Agreement up to the time of withdrawal, and deliver said works to you. Note that any deposits, such as payment of the Initial Invoice, are not refundable.
+        </p>
+    </div>
+
+      
+    <div class="together">
+    <h3>Designer Withdrawal</h3>
+
+        <p>
+        I reserve the right to either a. withdraw and give you a 100% refund while keeping all works, or b. withdraw and grant you a License to use all Deliverables, while keeping all monies you paid me. These two possibilities are detailed below.
+        </p>
+    </div>
+
+          <ol>
+            <li>
+            I reserve the right to withdraw from the entire Agreement at any time on the condition that all funds paid to me by you as part of this Agreement up to the time of withdrawal be refunded to you. I will retain ownership of all works produced as part of our Agreement. I'll notify you of my withdrawal within 10 days.<br><br>
+            </li>
+
+            <li>
+            I reserve the right to withdraw from the entire Agreement at any time on the condition that I grant you a License, as specified in the Copyrights section, to use all Deliverables produced as part of this Agreement up to the time of withdrawal. I'll retain all monies you have already paid me for any amount of work done thus far. You'll also compensate me for any work I have already done which has not yet been paid for, if applicable. Upon me notifying you of my intent to withdraw, and your final payment clearing, if applicable, I'll grant you a License, as specified in the Copyrights section, to use all Deliverables produced as part of this Agreement up to the time of withdrawal, and deliver said works to you.
+            </li>
+          </ol>
+
+      
+    <div class="together">
+    <h3>Cancellation</h3>
+        <p>
+          Additionally, this Agreement may be canceled at any time by any party if any party becomes insolvent, files a petition in bankruptcy, makes an assignment for the benefit of its creditors, or breaches any of its responsibilities as outlined in this Agreement and does not remedy said breach within 10 calendar days from receipt of written notice of said breach.
+        </p>
+    </div>
+    </section>
+
+    <section class="dotted-line">
+    <h2>The Dotted Line</h2>
+
+      <p>
+      I hope this document has served its purpose by opening further discussion on the details of the project, helping us both understand the other party's mindset, and shedding light on what to expect while we are working together. I look forward to doing business with you and I'm excited to get to work on your project!
+      </p>
+
+      <p>
+      The signatures of both parties below represents acceptance and execution of the Agreement. Everyone should sign below and keep a copy for their records.
+      </p>
+      <p>
+      Signed by <span class="change">your name</span>
+      </p>
+      <p class="signature">
+      ............................................................................................................................................ Date ........................................
+      </p>
+      <p>
+      Signed by <span class="change">client</span> on behalf of <span class="change">company</span>
+      </p>
+      <p class="signature">
+      ............................................................................................................................................ Date ........................................
+      </p>
+    </section>
+
+
+
+  </main>
+ 
+
+
+ <!--JS-->
+ <!--Put all scripts down here to improve load speed unless they are needed before the page renders.-->
+
+
+</body>
+
+</html>
