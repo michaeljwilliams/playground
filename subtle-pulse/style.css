@@ -429,7 +429,7 @@ p {
   line-height: 100vh;
   display: block;
   color: rgba(255, 255, 255, 0.2);
-  -webkit-animation: pulse 5s ease 0 infinite;
+  animation: pulse 10s ease infinite;
   position: relative;
   background-color: #0063E6;
   background: -webkit-radial-gradient(#0095FF, #006EBC);
@@ -441,7 +441,7 @@ p:after {
   height: 100vh;
   display: block;
   background-color: rgba(0, 0, 0, 0.1);
-  -webkit-animation: pulse 5s ease 0 infinite;
+  animation: pulse 5s ease 0 infinite;
   position: absolute;
   top: 0;
   left: 0;
